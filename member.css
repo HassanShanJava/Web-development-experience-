@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+.plan{
+    width:300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    overflow:hidden;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 15px;
+
+}
+.plan_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.header1{
+    padding:25px;
+    background:#CD7F32;
+    color:white;
+}
+.header2{
+    padding:25px;
+    background:silver;
+    color:black;
+}
+.header3{
+    padding:25px;
+    background:gold;
+    color:white;
+}
+.bronzeplan, .plansummary{
+    margin:0;
+    text-align: center;
+}
+.bronzeplan{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.plansummary{
+    font-size: 1em;
+    font-weight: 300;
+}
+.description{
+    padding:25px;
+}
+.plandetail{
+    padding: 0;
+    margin: 0;
+}
+.feature1{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    font-size: 0.9em;
+    position: relative;
+
+}
+.feature1:not(:last-child){
+    margin-bottom: 0.5em;
+
+}
+.feature1::before{
+    content: "\2714";
+    color: #cd7f32;
+    position: absolute;
+    left: 0;
+
+}
+.feature2{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    font-size: 0.9em;
+    position: relative;
+
+}
+.feature2:not(:last-child){
+    margin-bottom: 0.5em;
+
+}
+.feature2::before{
+    content: "\2714";
+    color:silver;
+    position: absolute;
+    left: 0;
+
+}
+.feature3{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    font-size: 0.9em;
+    position: relative;
+
+}
+.feature3:not(:last-child){
+    margin-bottom: 0.5em;
+
+}
+.feature3::before{
+    content: "\2714";
+    color:gold;
+    position: absolute;
+    left: 0;
+
+}
+.priceplan{
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display:flex;
+    flex-direction: column;
+
+}
+.button1{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #cd7f32;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #cd7f32;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+.button1:hover{
+    background: #cd7f32;
+    color: #ffffff;
+    transition: 50ms ease-in;
+}
+.button2{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    background: silver;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+.button2:hover{
+    background:black;
+    color: silver;
+    transition: 50ms ease-in;
+}
+.button3{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: gold;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid gold;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+.button3:hover{
+    background: gold;
+    color: #ffffff;
+    transition: 50ms ease-in;
+}
+.cost{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+.text{
+    font-size: 0.9em;
+    text-align: center;
+    /*top riht bottom left*/
+    margin: 0 0 10px 0;
+}
